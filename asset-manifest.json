@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jueun/static/css/main.dc71bd19.css",
+    "main.js": "/jueun/static/js/main.6c72e1f8.js",
+    "static/js/453.d02dffa2.chunk.js": "/jueun/static/js/453.d02dffa2.chunk.js",
+    "index.html": "/jueun/index.html",
+    "main.dc71bd19.css.map": "/jueun/static/css/main.dc71bd19.css.map",
+    "main.6c72e1f8.js.map": "/jueun/static/js/main.6c72e1f8.js.map",
+    "453.d02dffa2.chunk.js.map": "/jueun/static/js/453.d02dffa2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc71bd19.css",
+    "static/js/main.6c72e1f8.js"
+  ]
+}
