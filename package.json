@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage" : "https://lovestardev.github.io/jueun/",
+  "homepage": "https://lovestardev.github.io/jueun/",
   "eslintConfig": {
     "extends": [
       "react-app",

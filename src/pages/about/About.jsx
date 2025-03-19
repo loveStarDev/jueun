@@ -3,7 +3,7 @@ import Experience from "./ui/Experience"
 import './About.css';
 
 function About() { 
-    return <div>
+    return <div className="container">
         <Myself></Myself>
         <Experience></Experience>
     </div>;
