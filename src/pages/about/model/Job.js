@@ -24,9 +24,10 @@ class Job {
     }
 
     getProject() {
-        this.project.sort((data) => { 
-            
+        this.project.sort((p1, p2) => { 
+            return Number(p2.start.replaceAll("-", "")) - Number(p1.start.replaceAll("-", ""));
         });
+
         return ( 
             this.project.map( (p, idx) => (
                 <div className="proejct">
