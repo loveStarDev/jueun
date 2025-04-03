@@ -24,7 +24,9 @@ class Job {
     }
 
     getProject() {
-        console.log(this.project);
+        this.project.sort((data) => { 
+            
+        });
         return ( 
             this.project.map( (p, idx) => (
                 <div className="proejct">
@@ -36,6 +38,7 @@ class Job {
                     {p.getDoing()}
                     <h5>Tech Stack</h5>
                     <p>{p.skill}</p>
+                    <br></br>
                 </div>
             ))
         )
