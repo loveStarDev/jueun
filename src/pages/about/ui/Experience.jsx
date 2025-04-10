@@ -9,25 +9,39 @@ function Experience() {
     job.end = "현재";
     
     let project = new Project();
+    project.name = "차세대 물류 플랫폼 개발";
+    project.start = "2024-10";
+    project.end = "진행 중";
+    project.skill = "SpringBoot, React.js, Javascript, Java, MariaDB";
+    project.description = "React 기반 프론트엔드와 Java 17, Spring Boot 기반 백엔드 개발";
+    project.addDoing("AWS 기반 서버 아키텍처 설계 및 운영 환경 구성");
+    project.addDoing("AG Grid를 활용한 복잡한 물류 데이터 시각화");
+    project.addDoing("Swagger를 활용한 RESTful API 문서화");
+    project.addDoing("화면 구성도 및 컴포넌트 구조 설계 전반 참여");
+    job.addProject(project);
+
+    project = new Project();
     project.name = "Global Biz 용기렌탈솔루션";
     project.start = "2024-01";
     project.end = "2024-10";
     project.skill = "Javascript, HTML, CSS, JSP, Java, MariaDB, Spring, HyperUI, Bootstap";
-    project.description = "BOSK 와 현대자동차 배터리 납품을 위해 배터리 용기 렌탈을 위한 솔루션을 개발하였습니다.";
-    project.addDoing("ERD, 플로우차트, 기능설계서, API 명세서, 화면설계 등을 통한 기획");
-    project.addDoing("Spring, Java, MariaDB를 활용한 Restful API 개발");
-    project.addDoing("JavaScript, JSP, HTML, CSS 를 활용한 Web Application 화면 개발");
+    project.description = "BOSK 와 현대자동차 배터리 납품을 위해 배터리 용기 렌탈을 위한 솔루션을 개발";
+    project.addDoing("BOSK 및 현대차 대상 배터리 용기 렌탈 시스템 개발");
+    project.addDoing("ERD 설계, API 명세, 화면 설계 등 전반적인 설계 및 개발 참여");
+    project.addDoing("Java, Spring 기반 RESTful API 개발 및 HTML, CSS, JSP, Javascript 기반 Web UI 구현");
     job.addProject(project);
 
     project = new Project();
-    project.name = "정산 시스템 간소화 및 속도 개선";
+    project.name = "정산 시스템 성능 개선 및 고도화";
     project.start = "2023-03";
     project.end = "2023-08";
     project.skill = "Javascript, HTML, CSS, JSP, Java, MariaDB, Spring";
     project.description = "정산 시스템 리펙토링을 통해서 전체 소스 개선 및 최적화를 하고 최종적으로 속도 개선 및 프로세스 개선을 이루는 작업을 진행하였습니다.";
-    project.addDoing("Java, Spring 을 활용한 Stored Procedure <-> Rest API 변환");
+    project.addDoing("프로세스 간소화 및 성능 향상 (Stored Procedure → Java 서비스 전환, 비동기 처리 도입)");
     project.addDoing("웹 성능 분석 및 동기/비동기 통신을 활용한 최적화");
-    project.addDoing("소스 개선 및 불필요한 코드 중복 제거");
+    project.addDoing("해외 법인의 네트워크 속도 이슈 대응을 위한 소스 리팩토링 수행");
+    project.addDoing("사용자 UX 개선을 위한 화면 및 기능 재설계");
+    project.addDoing("업무 프로세스 간소화로 월 195시간의 업무 시간 절감 (약 80% 감소)");
     job.addProject(project);
 
     project = new Project();
@@ -35,7 +49,9 @@ function Experience() {
     project.start = "2023-04";
     project.end = "2024-01";
     project.skill = "Javascript, HTML, CSS, JSP, Java, MariaDB, Spring";
-    project.description = "기존에 어떤 BPO 인지에 따라서 프로젝트에 연관된 비용을 측정하거나 업무량을 나타내는 척도가 없었고 이를 해결하고자 관리회계 및 이를 관리하는 시스템을 개발 하였습니다.";
+    project.description = "물류 프로젝트별 원가 배분 기능 설계 및 구현";
+    project.addDoing("데이터 분석을 통한 실제 발생 비용에 대한 영업 이익 산출");
+    project.addDoing("사용자 입력을 통한 비용 흐름 추적 및 시각화 기능 추가");
     project.addDoing("Java, Spring, MariaDB를 활용한 Back Office 개발");
     project.addDoing("Javascript, HTML, CSS, JSP 등을 활용한 Web Application 개발");
     job.addProject(project);
@@ -45,10 +61,11 @@ function Experience() {
     project.start = "2022-10";
     project.end = "2023-01";
     project.skill = "Javascript, HTML, CSS, JSP, Java, MariaDB, Spring";
-    project.description = "KEROL 물류 비용에 대해서 국세청 세무 신고를 위한 결재를 위한 시스템 개발";
+    project.description = "기존 외부 그룹웨어에서 자체 시스템(KEROL)으로 전자 결재 기능 내재화";
+    project.addDoing("약 3만 건 이상의 결재 처리 달성, JSP 및 Spring 기반 API 개발 및 유지 보수 수행");
     project.addDoing("Java, Spring, MariaDB를 활용한 Restful API 개발");
     project.addDoing("Javascript, HTML, CSS, JSP 등을 활용한 Web Application 개발");
-    project.addDoing("ajax, Promise를 활용한 비동기, 동기를 활용한 개발");
+    project.addDoing("ajax, Promise를 활용한 비동기, 동기를 활용한 개발");  
     job.addProject(project);
     
     return <section>
