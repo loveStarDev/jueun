@@ -15,7 +15,7 @@ class Project {
     getDoing(){
         return <ul>
             {this.doing.map((d, idx) => (
-                <li>{d}</li>    
+                <li key={idx}>{d}</li>    
             ))}
         </ul>;
     }

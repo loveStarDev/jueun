@@ -22,3 +22,4 @@ oderwat.indent-rainbow
 wix.vscode-import-cost
 kisstkondoros.vscode-gutter-preview
 ms-ceintl.vscode-language-pack-ko
+chunsen.bracket-select

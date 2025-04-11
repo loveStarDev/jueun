@@ -30,7 +30,7 @@ class Job {
 
         return ( 
             this.project.map( (p, idx) => (
-                <div className="proejct">
+                <div key={idx} className="proejct">
                     <h4>{p.name}</h4>
                     <span className="time">{p.getPeriod()}</span>
                     <h5>Description</h5>
