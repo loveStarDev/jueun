@@ -11,8 +11,8 @@
     "serve": "vite preview",
     "test": "vite run --mode test",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://lovestardev.github.io/jueun/",
   "browserslist": {
