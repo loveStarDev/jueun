@@ -67,6 +67,26 @@ function Experience() {
     project.addDoing("Javascript, HTML, CSS, JSP 등을 활용한 Web Application 개발");
     project.addDoing("ajax, Promise를 활용한 비동기, 동기를 활용한 개발");  
     job.addProject(project);
+
+    project = new Project();
+    project.name = "단말 보안 관제 시스템";
+    project.start = "2025-03";
+    project.end = "진행 중";
+    project.skill = "C#, Javascript, Java, Spring, HTML, CSS, JSP, Mybatis, MariaDB";
+    project.description = "사용자의 보안 시스템 관제 프로그램 개발";
+    project.addDoing("RESTful API 개발을 통한 통신");
+    project.addDoing("C#을 활용한 Window Application 개발");
+    job.addProject(project);
+
+    project = new Project();
+    project.name = "업무 자동화 RPA 개발 (Robotic Process Automation)";
+    project.start = "2024-01";
+    project.end = "2024-06";
+    project.skill = "Python, Electron, Eureka(Spring Cloud)";
+    project.description = "Python 기반 RPA를 통한 반복 업무 자동화 시스템 개발";
+    project.addDoing("Electron 기반 Web Application 구현으로 사용 편의성 강화");
+    project.addDoing("Spring Cloud Eureka를 활용한 서버 이중화 구성 및 안정성 확보");
+    job.addProject(project);
     
     return <section>
                 <h2>Work Experience</h2>
