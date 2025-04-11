@@ -22,4 +22,11 @@ oderwat.indent-rainbow
 wix.vscode-import-cost
 kisstkondoros.vscode-gutter-preview
 ms-ceintl.vscode-language-pack-ko
+
+
 chunsen.bracket-select
+yatki.vscode-surround
+liamhammett.inline-parameters
+RobertOstermann.inline-parameters-extended
+mushan.vscode-paste-image
+ParthR2031.colorful-comments
