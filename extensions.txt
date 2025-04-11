@@ -30,3 +30,4 @@ liamhammett.inline-parameters
 RobertOstermann.inline-parameters-extended
 mushan.vscode-paste-image
 ParthR2031.colorful-comments
+rangav.vscode-thunder-client
