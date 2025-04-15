@@ -194,8 +194,14 @@ ul>li:before {
     display: block;
 }
 
+.project-row {
+    display: flex;
+    padding: 2rem 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
 .project {
-    padding: 1.5rem 0;
+    padding: 1.3rem 0;
 }
 
 .project:first-child {
@@ -216,7 +222,7 @@ ul>li:before {
 }
 
 .certification-item {
-    padding: 1.5rem 0;
+    padding: 2rem 0;
     border-bottom: 1px solid #eeeeee;
 }
 
@@ -240,4 +246,47 @@ ul>li:before {
 .certification-body p {
     margin: 0.2rem 0;
     font-size: 1.1rem;
+}
+
+/* 전체 섹션 스타일 */
+section {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* 연도 스타일 */
+.row-left-30 h3 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+/* 기술 스택 뱃지 스타일 */
+.tech-stack {
+    margin: 10px 0;
+}
+
+.tech-badge {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background: #3a7bd5;
+    /* 그라데이션 색상 적용 */
+    color: #fff;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 약간의 그림자 추가 */
+}
+
+/* 링크 스타일 */
+.project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
 }

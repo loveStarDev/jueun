@@ -16,7 +16,7 @@ export default function Certification() {
             date: "2024-03-17",
             name: "Opic_IL",
             agency: "ACTFL",
-            no: "2A3976707465"
+            no: ""
         }
     ];
 
@@ -32,12 +32,12 @@ export default function Certification() {
                 {certification.map((cert, index) => (
                     <li key={index} className="certification-item">
                         <div className="certification-header">
-                            <h5>{cert.name}</h5>
-                            <span className="certification-date">{cert.date}</span>
+                            {cert.name && <h5>{cert.name}</h5>}
+                            {cert.date && <span className="certification-date">{cert.date}</span>}
                         </div>
                         <div className="certification-body">
-                            <p><strong>발급기관:</strong> {cert.agency}</p>
-                            <p><strong>번호:</strong> {cert.no}</p>
+                            {cert.agency && <p><strong>발급기관:</strong> {cert.agency}</p>}
+                            {cert.no && <p><strong>번호:</strong> {cert.no}</p>}
                         </div>
                     </li>
                 ))}
