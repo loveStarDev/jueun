@@ -30,12 +30,16 @@ export default function Certification() {
             <h2>Certification</h2>
             <ul>
                 {certification.map((cert, index) => (
-                    <li key={index}>
-                        <h4>{cert.name}</h4>
-                        <p><strong>발급기관:</strong> {cert.agency}</p>
-                        <p><strong>발급일:</strong> {cert.date}</p>
-                        <p><strong>번호:</strong> {cert.no}</p>
-                    </li>
+                    <div className="row" key={index}>
+                        <div className="row-left">
+                            <h5>{cert.name}</h5>
+                        </div>
+                        <div className="row-right">
+                            <p><strong>발급기관:</strong> {cert.agency}</p>
+                            <p><strong>발급일:</strong> {cert.date}</p>
+                            <p><strong>번호:</strong> {cert.no}</p>
+                        </div>
+                    </div>
                 ))}
             </ul>
         </section>
