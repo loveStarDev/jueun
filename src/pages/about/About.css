@@ -157,6 +157,12 @@ ul>li:before {
     flex-shrink: 0;
 }
 
+.row-left-30 {
+    flex-basis: 10rem;
+    padding-right: 1rem;
+    flex-shrink: 0;
+}
+
 .row-right {
     flex-grow: 1;
 }
@@ -167,6 +173,12 @@ ul>li:before {
     }
 
     .row-left {
+        flex-basis: 100%;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    .row-left-30 {
         flex-basis: 100%;
         padding-right: 0;
         padding-bottom: 1rem;
