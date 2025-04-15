@@ -101,7 +101,7 @@ export default function Certification() {
 
     return (
         <section>
-            <h2>수상/자격증</h2>
+            <h2>Awards / Certifications</h2>
             <ul className="certification-list">
                 {certifications.map((cert, index) => (
                     <li key={index} className="certification-item">
