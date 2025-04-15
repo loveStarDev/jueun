@@ -4,7 +4,7 @@ function SideProjects() {
     const projects = [
         {
             year: "2022",
-            name: "모바일 커뮤니티 (With SSAFY) / 5인 개발",
+            name: "모바일 커뮤니티 (With SSAFY), 5인",
             description: "모든 싸피인들의 편리한 올인원패키지 서비스, 다양한 익명 커뮤니티와 한번에 확인할 수 있는 커리큘럼 및 스터디와 팀빌딩까지 다른 플랫폼을 사용하지 않고 편리하게 서비스를 이용할 수 있는 애플리케이션을 개발",
             techStack: "Spring Boot, Spring Data JPA, Kotlin, Android, AWS EC2, Jenkins, Nginx, Gradle, Java 17",
             details: [
@@ -16,7 +16,7 @@ function SideProjects() {
         },
         {
             year: "2022",
-            name: "CuteCatDog / 6인 개발",
+            name: "CuteCatDog, 6인",
             description: "동물의 행동과 표정을 통해 감정을 분석하고 사용자가 동물에 대한 지식을 얻을 수 있는 펫케어 애플리케이션 개발",
             techStack: "Android, Kotlin, YouTube API, KakaoTalk API, AWS EC2, Jenkins, Spring Boot",
             details: [
@@ -29,7 +29,7 @@ function SideProjects() {
         },
         {
             year: "2022",
-            name: "인공지능 활용 모바일 채팅 서비스 / 6인 개발",
+            name: "인공지능 활용 모바일 채팅 서비스, 6인",
             description: "얼굴 인식을 통하여 동물상으로 분류하여 비슷한 동물을 찾고 이를 통하여 랜덤 채팅과 퀴즈를 통해 자연스럽게 동물 보호에 관심을 갖도록 고무시키는 공익 서비스 개발",
             techStack: "Kotlin, Android, Firebase, Teachable Machine",
             details: [
@@ -41,7 +41,7 @@ function SideProjects() {
         },
         {
             year: "2021",
-            name: "SSAIGN (결제 서류 제작 프로그램) / 2인 개발",
+            name: "SSAIGN (결제 서류 제작 프로그램), 2인",
             description: "SAMSUNG SOFTWARE ACADEMY에서 사용하는 서류를 입력만으로 자동으로 만들어주는 애플리케이션",
             techStack: "Jetpack, Android, Kotlin, Firebase",
             details: [
@@ -56,7 +56,7 @@ function SideProjects() {
         },
         {
             year: "2021",
-            name: "CAFÉ 웹사이트 (MVC 패턴 스마트스토어) / 2인 개발",
+            name: "CAFÉ 웹사이트 (MVC 패턴 스마트스토어), 2인",
             description: "MVC 패턴의 Vue.js, HTML, CSS, JavaScript를 활용한 스마트스토어 웹 개발",
             techStack: "Java, Spring Boot, Vue.js, MVC",
             details: [
@@ -70,7 +70,7 @@ function SideProjects() {
         },
         {
             year: "2021",
-            name: "SSAFYBUCKS (O2O기반 Smart Store) / 2인 개발",
+            name: "SSAFYBUCKS (O2O기반 Smart Store), 2인",
             description: "Online to Offline 서비스로 직접 방문하지 않고 커피를 주문하고 주문 목록을 관리하는 Mobile Application 개발",
             techStack: "Android, Kotlin, Java, Spring Boot, MSSQL",
             details: [
@@ -83,7 +83,7 @@ function SideProjects() {
         },
         {
             year: "2020",
-            name: "Pigme (자동 부화기 프로젝트) / 1인 개발",
+            name: "Pigme (자동 부화기 프로젝트), 1인",
             description: "Raspberry PI와 Python을 활용한 자동 부화기 프로젝트",
             techStack: "Raspberry Pi, Python, IoT",
             details: [
@@ -95,7 +95,7 @@ function SideProjects() {
         },
         {
             year: "2020",
-            name: "홍미히 (동공 인식을 활용한 의사소통 보조 프로그램) / 5인 개발",
+            name: "홍미히 (동공 인식을 활용한 의사소통 보조 프로그램), 5인",
             description: "인공지능을 활용하여 동공을 조작한 의사 소통 보조 프로그램 AAC",
             techStack: "Python, PyQT, TTS",
             details: [
@@ -111,7 +111,7 @@ function SideProjects() {
         },
 {
             year: "2019",
-            name: "BookTree / 1인 개발",
+            name: "BookTree, 1인",
             description: "도서관 책 반납/대여 프로그램",
             techStack: "Oracle, C#",
             details: [
@@ -123,7 +123,7 @@ function SideProjects() {
         },
         {
             year: "2018",
-            name: "Rolling Eyes / 1인 개발",
+            name: "Rolling Eyes, 1인",
             description: "(주)파코웨어에서 의뢰한 Unity기반 동공 인식 게임 프로토타입 개발",
             techStack: "Unity, C#",
             details: [
