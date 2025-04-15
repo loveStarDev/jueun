@@ -20,26 +20,26 @@ export default function Certification() {
         }
     ];
 
-    // 정렬 수행
+    // 날짜 기준 내림차순 정렬
     certification.sort((a, b) => {
         return Number(b.date.replaceAll('-', '')) - Number(a.date.replaceAll('-', ''));
     });
 
     return (
         <section>
-            <h2>Certification</h2>
-            <ul>
+            <h2>Certifications</h2>
+            <ul className="certification-list">
                 {certification.map((cert, index) => (
-                    <div className="row" key={index}>
-                        <div className="row-left">
+                    <li key={index} className="certification-item">
+                        <div className="certification-header">
                             <h5>{cert.name}</h5>
+                            <span className="certification-date">{cert.date}</span>
                         </div>
-                        <div className="row-right">
+                        <div className="certification-body">
                             <p><strong>발급기관:</strong> {cert.agency}</p>
-                            <p><strong>발급일:</strong> {cert.date}</p>
                             <p><strong>번호:</strong> {cert.no}</p>
                         </div>
-                    </div>
+                    </li>
                 ))}
             </ul>
         </section>

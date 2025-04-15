@@ -206,3 +206,38 @@ ul>li:before {
     display: block;
     margin-bottom: 1.5rem;
 }
+
+
+/* Certification 스타일 */
+.certification-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.certification-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.certification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.certification-header h5 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.certification-date {
+    font-size: 1rem;
+    color: #666;
+}
+
+.certification-body p {
+    margin: 0.2rem 0;
+    font-size: 1.1rem;
+}
