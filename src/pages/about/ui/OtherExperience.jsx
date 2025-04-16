@@ -51,7 +51,7 @@ function OtherExperience() {
                 {experiences.map((exp, index) => (
                     <ul key={index} className="experience-item">
                         <div className="experience-header">
-                            <h3>{exp.title}</h3>
+                            <h5>{exp.title}</h5>
                             <span className="experience-period">{exp.period}</span>
                         </div>
                         <ul className="experience-details">

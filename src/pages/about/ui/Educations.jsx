@@ -18,7 +18,7 @@ function Educations() {
                 {educationData.map((edu, index) => (
                     <ul key={index} className="education-item">
                         <div className="education-header">
-                            <h3>{edu.school}</h3>
+                            <h5>{edu.school}</h5>
                             <span className="education-period">{edu.period}</span>
                         </div>
                         <div className="education-body">

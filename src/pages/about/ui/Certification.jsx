@@ -87,7 +87,7 @@ export default function Certification() {
             no: ""
         },
         {
-            date: "",
+            date: "2015-02-15",
             name: "운전면허증 1종 보통",
             agency: "대구지방경찰청장",
             no: ""
