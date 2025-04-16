@@ -29,6 +29,9 @@ body {
   html,
   body {
     font-size: 14px;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, Bazier Square, Noto Sans KR,
+      Segoe UI, Apple SD Gothic Neo, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
@@ -263,7 +266,7 @@ ul > li:before {
 .certification-date {
   font-size: 1rem;
   color: #666;
-  width: 5rem;
+  min-width: 80px;
   margin: 5px;
   text-align: right;
 }
@@ -276,7 +279,6 @@ ul > li:before {
 /* 전체 섹션 스타일 */
 section {
   padding: 20px;
-  font-family: Arial, sans-serif;
 }
 
 /* 연도 스타일 */
