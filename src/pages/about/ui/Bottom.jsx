@@ -5,6 +5,15 @@ export default function Bottom() {
 	return (
 		<section>
 			<footer className="bottom">
+				<div className="ref">
+					<p><strong>References</strong></p>
+					<p>Github:{' '}
+						<a target="_blank" href="https://github.com/loveStarDev">https://github.com/loveStarDev</a>
+					</p>
+					<p>Blog:{' '}
+						<a target="_blank" href="https://ilutoo.tistory.com/">https://ilutoo.tistory.com/</a>
+					</p>
+				</div>
 				<hr className="divider" />
 				<div className="bottom-content">
 					<div className="left-content">
@@ -15,7 +24,7 @@ export default function Bottom() {
 						</p>
 					</div>
 					<div className="right-content">
-						<p>&copy; 2025 Jueun Choi. All rights reserved.</p>
+						<p className="copyright">&copy; 2025 Jueun Choi. All rights reserved.</p>
 					</div>
 				</div>
 			</footer>

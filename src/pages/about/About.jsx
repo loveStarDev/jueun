@@ -13,9 +13,9 @@ function About() {
 			<Myself />
 			<Experience />
 			<SideProjects />
+			<OtherExperience />
 			<Educations />
 			<Certification />
-			<OtherExperience />
 			<Bottom />
 		</div>
 	);

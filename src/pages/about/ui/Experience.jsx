@@ -3,7 +3,7 @@ import Project from '../model/project';
 
 function Experience() {
 	let job = new Job();
-	job.name = '에프에스케이엘앤에스(주)';
+	job.name = 'FSK L&S';
 	job.role = 'Manager';
 	job.start = '2022-07';
 	job.end = '현재';
@@ -87,7 +87,7 @@ function Experience() {
 	job.addProject(project);
 
 	project = new Project();
-	project.name = '업무 자동화 RPA 개발 (Robotic Process Automation)';
+	project.name = '업무 자동화 RPA 개발\n(Robotic Process Automation)';
 	project.start = '2024-01';
 	project.end = '2024-06';
 	project.skill = 'Python, Electron, Eureka(Spring Cloud)';

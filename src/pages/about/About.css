@@ -3,7 +3,7 @@
 * {
 	box-sizing: border-box;
 	white-space: pre-line;
-	word-break: break-all;
+	word-break: normal;
 }
 
 ::selection {
@@ -152,7 +152,7 @@ ul > li:before {
 
 .container {
 	width: 100%;
-	max-width: 55rem;
+	max-width: 60rem;
 	margin: auto;
 }
 
@@ -179,7 +179,7 @@ ul > li:before {
 }
 
 .row-left {
-	flex-basis: 22rem;
+	flex-basis: 18rem;
 	padding-right: 1rem;
 	flex-shrink: 0;
 }
@@ -228,7 +228,7 @@ ul > li:before {
 }
 
 .project {
-	padding: 1.3rem 0;
+	padding: 1.5rem 0;
 }
 
 .project:first-child {
