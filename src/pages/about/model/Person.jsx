@@ -9,7 +9,7 @@ class Person {
     }
 
     sayHi() {
-        return `반갑습니다, 저는 ${this.name} 입니다.`;
+        return `반갑습니다, \n저는 ${this.name} 입니다.`;
     }
 
     getInfo() {
