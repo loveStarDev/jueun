@@ -104,7 +104,7 @@ export default function Certification() {
             <h2>Awards / Certifications</h2>
             <ul className="certification-list">
                 {certifications.map((cert, index) => (
-                    <li key={index} className="certification-item">
+                    <ul key={index} className="certification-item">
                         <div className="certification-header">
                             {cert.name && <h5>{cert.name}</h5>}
                             {cert.date && <span className="certification-date">{cert.date}</span>}
@@ -120,7 +120,7 @@ export default function Certification() {
                                 </ul>
                             )}
                         </div>
-                    </li>
+                    </ul>
                 ))}
             </ul>
         </section>
