@@ -1,11 +1,11 @@
-import Myself from "./ui/Myself";
-import Experience from "./ui/Experience";
-import Certification from "./ui/Certification";
-import SideProjects from "./ui/SideProjects";
-import Educations from "./ui/Educations";
+import Myself from './ui/Myself';
+import Experience from './ui/Experience';
+import Certification from './ui/Certification';
+import SideProjects from './ui/SideProjects';
+import Educations from './ui/Educations';
 import OtherExperience from './ui/OtherExperience';
-import Bottom from "./ui/Bottom";
-import "./About.css";
+import Bottom from './ui/Bottom';
+import './About.css';
 
 function About() {
     return (
@@ -15,7 +15,7 @@ function About() {
             <SideProjects />
             <Educations />
             <Certification />
-            <OtherExperience/>
+            <OtherExperience />
             <Bottom />
         </div>
     );

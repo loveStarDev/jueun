@@ -1,361 +1,361 @@
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 
 * {
-  box-sizing: border-box;
-  white-space: pre-line;
-  word-break: break-all;
+	box-sizing: border-box;
+	white-space: pre-line;
+	word-break: break-all;
 }
 
 ::selection {
-  background: #00d2ff;
+	background: #00d2ff;
 }
 
 html,
 body {
-  font-size: 16px;
-  word-break: keep-all;
-  font-family:
-    Pretendard,
-    -apple-system,
-    BlinkMacSystemFont,
-    Bazier Square,
-    Noto Sans KR,
-    Segoe UI,
-    Apple SD Gothic Neo,
-    Roboto,
-    Helvetica Neue,
-    Arial,
-    sans-serif,
-    Apple Color Emoji,
-    Segoe UI Emoji,
-    Segoe UI Symbol,
-    Noto Color Emoji;
-  letter-spacing: -0.3px;
-  color: #222222;
-  padding-bottom: 2rem;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+	word-break: keep-all;
+	font-family:
+		Pretendard,
+		-apple-system,
+		BlinkMacSystemFont,
+		Bazier Square,
+		Noto Sans KR,
+		Segoe UI,
+		Apple SD Gothic Neo,
+		Roboto,
+		Helvetica Neue,
+		Arial,
+		sans-serif,
+		Apple Color Emoji,
+		Segoe UI Emoji,
+		Segoe UI Symbol,
+		Noto Color Emoji;
+	letter-spacing: -0.3px;
+	color: #222222;
+	padding-bottom: 2rem;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 960px) {
-  html,
-  body {
-    font-size: 14px;
-    font-family:
-      Pretendard,
-      -apple-system,
-      BlinkMacSystemFont,
-      Bazier Square,
-      Noto Sans KR,
-      Segoe UI,
-      Apple SD Gothic Neo,
-      Roboto,
-      Helvetica Neue,
-      Arial,
-      sans-serif,
-      Apple Color Emoji,
-      Segoe UI Emoji,
-      Segoe UI Symbol,
-      Noto Color Emoji;
-  }
+	html,
+	body {
+		font-size: 14px;
+		font-family:
+			Pretendard,
+			-apple-system,
+			BlinkMacSystemFont,
+			Bazier Square,
+			Noto Sans KR,
+			Segoe UI,
+			Apple SD Gothic Neo,
+			Roboto,
+			Helvetica Neue,
+			Arial,
+			sans-serif,
+			Apple Color Emoji,
+			Segoe UI Emoji,
+			Segoe UI Symbol,
+			Noto Color Emoji;
+	}
 }
 
 body:before {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  display: block;
-  content: "";
-  width: 100%;
-  height: 10px;
-  background: #00d2ff;
-  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 10px;
+	background: #00d2ff;
+	background: linear-gradient(to right, #3a7bd5, #00d2ff);
 }
 
 section {
-  padding: 0 2rem;
+	padding: 0 2rem;
 }
 
 p {
-  margin: 0 0 1rem 0;
-  font-size: 1.1rem;
-  line-height: 1.4;
+	margin: 0 0 1rem 0;
+	font-size: 1.1rem;
+	line-height: 1.4;
 }
 
 a {
-  color: #3a7bd5;
-  transition: color 0.3s ease;
+	color: #3a7bd5;
+	transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #00d2ff;
+	color: #00d2ff;
 }
 
 h1 {
-  font-size: 5rem;
-  line-height: 1.1;
+	font-size: 5rem;
+	line-height: 1.1;
 }
 
 @media screen and (max-width: 960px) {
-  h1 {
-    font-size: 3rem;
-  }
+	h1 {
+		font-size: 3rem;
+	}
 }
 
 h2 {
-  font-size: 3rem;
-  margin: 1rem 0;
+	font-size: 3rem;
+	margin: 1rem 0;
 }
 
 h3 {
-  font-size: 2rem;
-  margin: 0 0 1rem 0;
+	font-size: 2rem;
+	margin: 0 0 1rem 0;
 }
 
 h4 {
-  font-size: 2rem;
-  margin: 0 0 1rem 0;
+	font-size: 2rem;
+	margin: 0 0 1rem 0;
 }
 
 @media screen and (max-width: 960px) {
-  h4 {
-    font-size: 1.5rem;
-  }
+	h4 {
+		font-size: 1.5rem;
+	}
 }
 
 h5 {
-  font-size: 1.3rem;
-  margin: 0 0 0.5rem 0;
-  color: #333333;
+	font-size: 1.3rem;
+	margin: 0 0 0.5rem 0;
+	color: #333333;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1rem 0;
-  font-size: 1.1rem;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 1rem 0;
+	font-size: 1.1rem;
 }
 
 ul > li {
-  position: relative;
-  padding: 0.2rem 0 0.2rem 1rem;
+	position: relative;
+	padding: 0.2rem 0 0.2rem 1rem;
 }
 
 ul > li:before {
-  position: absolute;
-  left: 0;
-  display: inline-block;
-  content: "•";
-  color: #3a7bd5;
+	position: absolute;
+	left: 0;
+	display: inline-block;
+	content: '•';
+	color: #3a7bd5;
 }
 
 .container {
-  width: 100%;
-  max-width: 55rem;
-  margin: auto;
+	width: 100%;
+	max-width: 55rem;
+	margin: auto;
 }
 
 .period-mark {
-  color: #3a7bd5;
+	color: #3a7bd5;
 }
 
 .big-paragraph {
-  font-size: 2rem;
-  line-height: 1.4;
-  font-weight: 500;
+	font-size: 2rem;
+	line-height: 1.4;
+	font-weight: 500;
 }
 
 @media screen and (max-width: 960px) {
-  .big-paragraph {
-    font-size: 1.5rem;
-  }
+	.big-paragraph {
+		font-size: 1.5rem;
+	}
 }
 
 .row {
-  display: flex;
-  padding: 3rem 0;
-  border-bottom: 1px solid #eeeeee;
+	display: flex;
+	padding: 3rem 0;
+	border-bottom: 1px solid #eeeeee;
 }
 
 .row-left {
-  flex-basis: 22rem;
-  padding-right: 1rem;
-  flex-shrink: 0;
+	flex-basis: 22rem;
+	padding-right: 1rem;
+	flex-shrink: 0;
 }
 
 .row-left-30 {
-  flex-basis: 10rem;
-  padding-right: 1rem;
-  flex-shrink: 0;
+	flex-basis: 10rem;
+	padding-right: 1rem;
+	flex-shrink: 0;
 }
 
 .row-right {
-  flex-grow: 1;
+	flex-grow: 1;
 }
 
 @media screen and (max-width: 960px) {
-  .row,
-  .project-row {
-    flex-direction: column;
-  }
+	.row,
+	.project-row {
+		flex-direction: column;
+	}
 
-  .row-left,
-  .row-left-30 {
-    flex-basis: 100%;
-    padding-right: 0;
-    padding-bottom: 1rem;
-  }
+	.row-left,
+	.row-left-30 {
+		flex-basis: 100%;
+		padding-right: 0;
+		padding-bottom: 1rem;
+	}
 
-  .row-right {
-    flex-basis: 100%;
-  }
+	.row-right {
+		flex-basis: 100%;
+	}
 }
 
 .other {
-  padding: 3rem 0;
-  border-bottom: 1px solid #eeeeee;
+	padding: 3rem 0;
+	border-bottom: 1px solid #eeeeee;
 }
 
 .role {
-  display: block;
+	display: block;
 }
 
 .project-row {
-  display: flex;
-  padding: 2rem 0;
-  border-bottom: 1px solid #eeeeee;
+	display: flex;
+	padding: 2rem 0;
+	border-bottom: 1px solid #eeeeee;
 }
 
 .project {
-  padding: 1.3rem 0;
+	padding: 1.3rem 0;
 }
 
 .project:first-child {
-  padding-top: 0;
+	padding-top: 0;
 }
 
 /* 반응형 처리 */
 @media screen and (max-width: 960px) {
-  .project {
-    padding: 1rem 0;
-    /* 작은 화면에서 패딩 축소 */
-  }
+	.project {
+		padding: 1rem 0;
+		/* 작은 화면에서 패딩 축소 */
+	}
 }
 
 .time {
-  display: block;
-  margin-bottom: 1.5rem;
+	display: block;
+	margin-bottom: 1.5rem;
 }
 
 /* Certification 스타일 */
 .certification-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 @media screen and (max-width: 960px) {
-  .certification-list {
-    display: flex;
-    flex-direction: column;
-    /* 세로 정렬 */
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+	.certification-list {
+		display: flex;
+		flex-direction: column;
+		/* 세로 정렬 */
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
 
-  .certification-item {
-    padding: 1rem 0;
-    /* 항목 간 간격 조정 */
-    border-bottom: 1px solid #eeeeee;
-  }
+	.certification-item {
+		padding: 1rem 0;
+		/* 항목 간 간격 조정 */
+		border-bottom: 1px solid #eeeeee;
+	}
 }
 
 .certification-item {
-  padding: 2rem 0;
-  border-bottom: 1px solid #eeeeee;
+	padding: 2rem 0;
+	border-bottom: 1px solid #eeeeee;
 }
 
 .certification-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
 }
 
 .certification-header h5 {
-  font-size: 1.5rem;
-  margin: 0;
+	font-size: 1.5rem;
+	margin: 0;
 }
 
 .certification-date {
-  font-size: 1rem;
-  color: #666;
-  min-width: 80px;
-  margin: 5px;
-  text-align: right;
+	font-size: 1rem;
+	color: #666;
+	min-width: 80px;
+	margin: 5px;
+	text-align: right;
 }
 
 .certification-body p {
-  margin: 0.2rem 0;
-  font-size: 1.1rem;
+	margin: 0.2rem 0;
+	font-size: 1.1rem;
 }
 
 /* 전체 섹션 스타일 */
 section {
-  padding: 20px;
+	padding: 20px;
 }
 
 /* 연도 스타일 */
 .row-left-30 h3 {
-  font-size: 2rem;
-  margin-bottom: 5px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-left: 4px solid #3a7bd5;
-  padding-left: 10px;
+	font-size: 2rem;
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-left: 4px solid #3a7bd5;
+	padding-left: 10px;
 }
 /* 기술 스택 뱃지 스타일 */
 .tech-stack {
-  margin: 10px 0;
-  display: flex;
-  flex-wrap: wrap;
-  /* 뱃지가 화면 크기에 따라 줄바꿈되도록 설정 */
+	margin: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+	/* 뱃지가 화면 크기에 따라 줄바꿈되도록 설정 */
 }
 
 .tech-badge {
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 5px 10px;
-  background: #3a7bd5;
-  /* 그라데이션 색상 적용 */
-  color: #fff;
-  border-radius: 12px;
-  font-size: 0.9rem;
-  font-weight: bold;
-  text-transform: capitalize;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* 약간의 그림자 추가 */
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 5px 10px;
+	background: #3a7bd5;
+	/* 그라데이션 색상 적용 */
+	color: #fff;
+	border-radius: 12px;
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	/* 약간의 그림자 추가 */
 }
 
 /* 반응형 처리 */
 @media screen and (max-width: 960px) {
-  .tech-badge {
-    font-size: 0.8rem;
-    /* 작은 화면에서 글자 크기 축소 */
-    padding: 4px 8px;
-    /* 패딩 축소 */
-  }
+	.tech-badge {
+		font-size: 0.8rem;
+		/* 작은 화면에서 글자 크기 축소 */
+		padding: 4px 8px;
+		/* 패딩 축소 */
+	}
 }
 
 /* 링크 스타일 */
 .project a {
-  color: #007bff;
-  text-decoration: none;
+	color: #007bff;
+	text-decoration: none;
 }
 
 .project a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }

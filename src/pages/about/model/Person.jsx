@@ -15,7 +15,6 @@ class Person {
     getInfo() {
         return this.info;
     }
-
 }
 
 export default Person;
