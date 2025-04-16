@@ -76,7 +76,7 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  margin: 4rem 0 2rem 0;
+  margin: 1rem 0;
 }
 
 h3 {
@@ -263,6 +263,9 @@ ul > li:before {
 .certification-date {
   font-size: 1rem;
   color: #666;
+  width: 5rem;
+  margin: 5px;
+  text-align: right;
 }
 
 .certification-body p {

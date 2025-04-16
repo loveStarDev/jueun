@@ -1,0 +1,72 @@
+/* 하단 영역 스타일 */
+.bottom {
+  display: flex;
+  justify-content: space-between; /* 좌우로 나뉘도록 설정 */
+  align-items: center;
+  padding: 1.5rem 2rem;
+  font-size: 0.9rem;
+  color: #333;
+  border-top: 2px solid #3a7bd5; /* 상단에 강조선 추가 */
+}
+
+/* 구분선 스타일 */
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0 0 1rem 0;
+}
+
+/* 좌측 내용 스타일 */
+.bottom-content .left-content {
+  text-align: left;
+  flex: 1; /* 왼쪽 영역 확장 */
+}
+
+/* 좌측 텍스트 스타일 */
+.bottom-content .left-content p {
+  margin: 0.3rem 0;
+}
+
+/* 우측 내용 스타일 */
+.bottom-content .right-content {
+  text-align: right;
+  flex: 1; /* 오른쪽 영역 확장 */
+}
+
+/* 우측 텍스트 스타일 */
+.bottom-content .right-content p {
+  margin: 0.3rem 0;
+  font-size: 0.85rem;
+  color: #666; /* 약간 흐린 색상으로 변경 */
+}
+
+/* 링크 스타일 */
+.bottom-content a {
+  color: #3a7bd5; /* 프로젝트 주요 색상으로 변경 */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bottom-content a:hover {
+  text-decoration: underline;
+  color: #00d2ff; /* 호버 시 색상 변경 */
+}
+
+/* 모바일 버전 */
+@media screen and (max-width: 960px) {
+  .bottom {
+    flex-direction: column; /* 세로 정렬 */
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .bottom-content .left-content,
+  .bottom-content .right-content {
+    text-align: center;
+    margin-bottom: 1rem; /* 각 섹션 간 간격 추가 */
+  }
+
+  .bottom-content .right-content p {
+    font-size: 0.8rem; /* 작은 화면에서 글자 크기 축소 */
+  }
+}
