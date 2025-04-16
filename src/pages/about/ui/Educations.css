@@ -1,60 +1,60 @@
 /* Education 스타일 */
 .education-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 .education-item {
-  padding: 1.5rem 0;
-  border-bottom: 1px solid #eeeeee;
+	padding: 1.5rem 0;
+	border-bottom: 1px solid #eeeeee;
 }
 
 .education-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
 }
 
 .education-header h3 {
-  font-size: 1.8rem;
-  margin: 0;
-  /* color: #3a7bd5; */
+	font-size: 1.8rem;
+	margin: 0;
+	/* color: #3a7bd5; */
 }
 
 .education-period {
-  font-size: 1rem;
-  color: #666;
+	font-size: 1rem;
+	color: #666;
 }
 
 .education-body p {
-  margin: 0.2rem 0;
-  font-size: 1.1rem;
+	margin: 0.2rem 0;
+	font-size: 1.1rem;
 }
 
 /* 모바일 버전 */
 @media screen and (max-width: 960px) {
-  .education-item {
-    padding: 1rem 0; /* 패딩 축소 */
-  }
+	.education-item {
+		padding: 1rem 0; /* 패딩 축소 */
+	}
 
-  .education-header {
-    flex-direction: column; /* 세로 정렬 */
-    align-items: flex-start; /* 왼쪽 정렬 */
-  }
+	.education-header {
+		flex-direction: column; /* 세로 정렬 */
+		align-items: flex-start; /* 왼쪽 정렬 */
+	}
 
-  .education-header h3 {
-    font-size: 1.5rem; /* 글자 크기 축소 */
-    margin-bottom: 0.3rem; /* 간격 추가 */
-  }
+	.education-header h3 {
+		font-size: 1.5rem; /* 글자 크기 축소 */
+		margin-bottom: 0.3rem; /* 간격 추가 */
+	}
 
-  .education-period {
-    font-size: 0.9rem; /* 글자 크기 축소 */
-    color: #888; /* 색상 약간 흐리게 */
-  }
+	.education-period {
+		font-size: 0.9rem; /* 글자 크기 축소 */
+		color: #888; /* 색상 약간 흐리게 */
+	}
 
-  .education-body p {
-    font-size: 1rem; /* 글자 크기 축소 */
-  }
+	.education-body p {
+		font-size: 1rem; /* 글자 크기 축소 */
+	}
 }

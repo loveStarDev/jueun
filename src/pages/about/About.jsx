@@ -8,17 +8,17 @@ import Bottom from './ui/Bottom';
 import './About.css';
 
 function About() {
-    return (
-        <div className="container">
-            <Myself />
-            <Experience />
-            <SideProjects />
-            <Educations />
-            <Certification />
-            <OtherExperience />
-            <Bottom />
-        </div>
-    );
+	return (
+		<div className="container">
+			<Myself />
+			<Experience />
+			<SideProjects />
+			<Educations />
+			<Certification />
+			<OtherExperience />
+			<Bottom />
+		</div>
+	);
 }
 
 export default About;

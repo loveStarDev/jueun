@@ -1,9 +1,11 @@
-import About from "../about/About"
+import About from '../about/About';
 
 function Home() {
-    return <div>
-        <About></About>
-    </div>
+	return (
+		<div>
+			<About></About>
+		</div>
+	);
 }
 
 export default Home;

@@ -1,62 +1,62 @@
 {
-    "name": "jueun",
-    "author": "jueun",
-    "version": "0.1.0",
-    "private": true,
-    "packageManager": "yarn@1.22.22",
-    "scripts": {
-        "dev": "vite --mode development",
-        "start": "vite",
-        "build": "vite build",
-        "serve": "vite preview",
-        "test": "vite run --mode test",
-        "preview": "vite preview",
-        "predeploy": "yarn build",
-        "deploy": "gh-pages -d dist"
-    },
-    "homepage": "https://lovestardev.github.io/jueun/",
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "@vitejs/plugin-react": "^4.3.4",
-        "@vitejs/plugin-vue": "^5.2.3",
-        "gh-pages": "^6.3.0",
-        "prettier": "^3.5.3",
-        "vite": "^6.2.6"
-    },
-    "dependencies": {
-        "@testing-library/dom": "^10.4.0",
-        "@testing-library/jest-dom": "^6.6.3",
-        "@testing-library/react": "^16.2.0",
-        "@testing-library/user-event": "^14.6.1",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
-        "react-router-dom": "^7.5.0",
-        "react-scripts": "^5.0.1",
-        "web-vitals": "^4.2.4"
-    },
-    "description": "- 해당 프로젝트는 `turborepo` 라이브러리를 이용해 모노레포로 구성함.",
-    "main": "update-imports.js",
-    "directories": {
-        "test": "test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/loveStarDev/jueun.git"
-    },
-    "keywords": [],
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/loveStarDev/jueun/issues"
-    }
+	"name": "jueun",
+	"author": "jueun",
+	"version": "0.1.0",
+	"private": true,
+	"packageManager": "yarn@1.22.22",
+	"scripts": {
+		"dev": "vite --mode development",
+		"start": "vite",
+		"build": "vite build",
+		"serve": "vite preview",
+		"test": "vite run --mode test",
+		"preview": "vite preview",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -d dist"
+	},
+	"homepage": "https://lovestardev.github.io/jueun/",
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "^4.3.4",
+		"@vitejs/plugin-vue": "^5.2.3",
+		"gh-pages": "^6.3.0",
+		"prettier": "^3.5.3",
+		"vite": "^6.2.6"
+	},
+	"dependencies": {
+		"@testing-library/dom": "^10.4.0",
+		"@testing-library/jest-dom": "^6.6.3",
+		"@testing-library/react": "^16.2.0",
+		"@testing-library/user-event": "^14.6.1",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-router-dom": "^7.5.0",
+		"react-scripts": "^5.0.1",
+		"web-vitals": "^4.2.4"
+	},
+	"description": "- 해당 프로젝트는 `turborepo` 라이브러리를 이용해 모노레포로 구성함.",
+	"main": "update-imports.js",
+	"directories": {
+		"test": "test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/loveStarDev/jueun.git"
+	},
+	"keywords": [],
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/loveStarDev/jueun/issues"
+	}
 }
